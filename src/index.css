@@ -13,6 +13,15 @@
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+  background: #f7f7f7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff6452;
+}
+
 @layer components {
   .max-container {
     max-width: 1440px;
